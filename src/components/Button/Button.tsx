@@ -6,10 +6,10 @@ import { getButtonClasses } from './Button.utils';
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, children, loading, variant = 'primary', ...rest }, forwardedRef) => {
-    const buttonClass = getButtonClasses({ variant, className });
+    const buttonClasses = getButtonClasses({ variant, className });
 
     return (
-      <button className={buttonClass} {...rest} ref={forwardedRef}>
+      <button className={buttonClasses} {...rest} ref={forwardedRef}>
         {loading ? <Spinner /> : children}
       </button>
     );

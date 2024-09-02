@@ -1,5 +1,5 @@
 /// <reference types="vite-plugin-svgr/client" />
-import Logo from 'src/assets/notebook.svg?react';
+import Logo from 'src/assets/screen.svg?react';
 
 export const SignUpHeader = () => {
   return (

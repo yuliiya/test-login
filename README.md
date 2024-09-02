@@ -6,7 +6,7 @@ This is a simple React-based project that includes a login feature, using modern
 
 ## Installation
 
-- Clone the repository:
+- Clone the repository
 
 - Install the dependencies:
 
